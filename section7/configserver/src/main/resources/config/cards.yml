@@ -1,0 +1,10 @@
+build:
+  version: "3.0"
+cards:
+  message: "Welcome to Aluri Cards related local APIs"
+  contactDetails:
+    name: "Mounika Lamu - Developer"
+    email: "mounika.lamu@ibm.com"
+  onCallSupport:
+    - (000)456-3178
+    - (000)764-8943

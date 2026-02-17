@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+cards:
+  message: "Welcome to Aluri Cards related PROD APIs"
+  contactDetails:
+    name: "Mounika Lamu - Developer"
+    email: "mounika.lamu@ibm.com"
+  onCallSupport:
+    - (000)456-3178
+    - (000)764-8943

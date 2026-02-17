@@ -1,0 +1,34 @@
+server:
+  port: 8092
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
+
+build:
+  version: "3.0"
+cards:
+  message: "Welcome to Aluri Cards related local APIs"
+  contactDetails:
+    name: "Mounika Lamu - Developer"
+    email: "mounika.lamu@ibm.com"
+  onCallSupport:
+    - (000)456-3178
+    - (000)764-8943

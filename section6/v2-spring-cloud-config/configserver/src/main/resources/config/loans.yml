@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to Aluri Loans related local APIs"
+  contactDetails:
+    name: "Mounika Lamu - Tester"
+    email: "mounika.lamu@ibm.com"
+  onCallSupport:
+    - (452)456-3178
+    - (687)764-8943
