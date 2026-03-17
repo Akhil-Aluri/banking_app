@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to Aluri accounts related PROD APIs "
+  contactDetails:
+    name: "Akhil Aluri - Product Owner"
+    email: "akhil@aluri.com"
+  onCallSupport:
+    - (777) 555-1234
+    - (777) 523-1345

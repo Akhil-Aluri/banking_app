@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to Aluri Loans related QA APIs"
+  contactDetails:
+    name: "Mounika Lamu - Tester"
+    email: "mounika.lamu@ibm.com"
+  onCallSupport:
+    - (452)456-3178
+    - (687)764-8943

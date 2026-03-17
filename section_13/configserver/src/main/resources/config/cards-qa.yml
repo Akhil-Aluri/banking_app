@@ -1,0 +1,14 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+build:
+  version: "2.0"
+cards:
+  message: "Welcome to Aluri Cards related QA APIs"
+  contactDetails:
+    name: "Mounika Lamu - Developer"
+    email: "mounika.lamu@ibm.com"
+  onCallSupport:
+    - (000)456-3178
+    - (000)764-8943
