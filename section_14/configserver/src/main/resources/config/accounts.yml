@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to Aluri accounts related local APIs "
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "{ciper}f7f80ff6676569ec8a9e45ee20f8f42326bc72f1f849dd3156c5d629b1ebaf09"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
